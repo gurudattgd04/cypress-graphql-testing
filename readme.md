@@ -45,3 +45,9 @@ Let's test this by writing a cypress test
 
 As we can see only the body has been changed, where we are using mutation to pass the details for creating new product and rest of the request parameters remains same.
 In graphql the status code is 200 always, hence we need to rely on validating the response body. In the above test, we are validating the newly created Product Name which is returned as part of response body upon successful Product creation.
+
+### For starting graphql application and test, perform below steps
+1. npm install
+2. install mongo db and start the server
+3. npm start
+4. npx cypress open
