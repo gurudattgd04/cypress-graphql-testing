@@ -6,6 +6,5 @@ module.exports = defineConfig({
       // implement node event listeners here
       chromeWebSecurity: false;
     },
-    failOnStatusCode: true,
   },
 });
